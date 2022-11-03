@@ -122,17 +122,22 @@ html {
   height: 100vh;
   overflow: hidden; }
   #hero .hero-left h1 {
-    font-size: 7rem; }
+    font-size: 7rem;
+    line-height: 55px; }
   #hero .hero-left p {
     font-size: 2rem;
-    color: #7A797D; }
+    color: #7A797D;
+    margin-top: 20px; }
   #hero .hero-left .hero-btns {
     margin-top: 50px;
     font-size: 2rem; }
     #hero .hero-left .hero-btns .tap {
       border-bottom: 2px solid #7A797D;
       color: #7A797D;
-      text-decoration: none; }
+      text-decoration: none;
+      transition: all ease .5s; }
+      #hero .hero-left .hero-btns .tap:hover {
+        color: white; }
     #hero .hero-left .hero-btns a:first-child {
       margin-right: 25px; }
   #hero .hero-right {

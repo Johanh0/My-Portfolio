@@ -11,11 +11,13 @@
 
         h1 {
             font-size: 7rem;
+            line-height: 55px;
         }
 
         p {
             font-size: 2rem;
             color: $grey-color;
+            margin-top: 20px;
         }
 
         .hero-btns {
@@ -26,6 +28,11 @@
                 border-bottom: 2px solid $grey-color;
                 color: $grey-color;
                 text-decoration: none;
+                transition: all ease .5s;
+
+                &:hover {
+                    color: $white-color;
+                }
             }
 
             a:first-child {
