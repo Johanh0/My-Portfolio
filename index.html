@@ -10,7 +10,7 @@
 </head>
 <body>
     
-    <header class="nav-header" id="header">
+    <header class="nav-header hero-animation" id="header">
         <div class="header-logo">
             <p class="logo">Johan.</p>
         </div>
@@ -26,27 +26,27 @@
     <main>
         <section id="hero">
             <div class="hero-left">
-                <h1>Johan Herrera.</h1>
-                <p>Full Stack Developer professional in North Carolina, United States.</p>
-                <div class="hero-btns">
+                <h1 class="hero-animation">Johan Herrera.</h1>
+                <p class="hero-animation">Full Stack Developer professional in North Carolina, United States.</p>
+                <div class="hero-btns hero-animation">
                     <a href="" class="tap">Contact</a>
                     <a href="#projects" class="tap">Projects</a>
                 </div>
             </div>
             <div class="hero-right">
-                <div class="card">
+                <div class="card hero-animation_leftSlide">
                     <img src="./assets/img/pictures/hero.png" alt="Picture of Johan Herrera" class="card-img">
                 </div>
             </div>
 
             <div class="hero-social">
-                <a target="_blank" href="https://github.com/Johanh0"><i class="fa-brands fa-github go"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/johanh0/"><i class="fa-brands fa-linkedin go"></i></a>
+                <a target="_blank" href="https://github.com/Johanh0"><i class="fa-brands fa-github go hero-animation"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/johanh0/"><i class="fa-brands fa-linkedin go hero-animation"></i></a>
                 <!-- <a target="_blank" href=""><i class="fa-brands fa-facebook go"></i></a> -->
-                <a target="_blank" href="https://www.instagram.com/johanh0/"><i class="fa-brands fa-instagram go"></i></a>
+                <a target="_blank" href="https://www.instagram.com/johanh0/"><i class="fa-brands fa-instagram go hero-animation"></i></a>
             </div>
 
-            <div class="hero-greeting">
+            <div class="hero-greeting hero-animation_greeting">
                 <p>👋 <span>Thanks for visit my portfolio!</span></p>
             </div>
 
@@ -116,6 +116,7 @@
     <div class="color-circle color-circle_3"></div>
     <div class="color-circle color-circle_4"></div>
 
-    <script src="./public/js/script.js"></script>
+    <script type="module" src="./public/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
 </body>
 </html>
