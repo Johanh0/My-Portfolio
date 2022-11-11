@@ -81,6 +81,36 @@ html {
   .btn-up a {
     color: white; }
 
+.color-circle {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  z-index: -5;
+  background-color: red;
+  filter: blur(100px);
+  opacity: .4; }
+
+.color-circle_1 {
+  top: -150px;
+  right: -150px;
+  background-color: #a76ee7; }
+
+.color-circle_2 {
+  top: 100px;
+  right: 100px;
+  background-color: #ff8b5d; }
+
+.color-circle_3 {
+  bottom: -150px;
+  left: -150px;
+  background-color: #a76ee7; }
+
+.color-circle_4 {
+  bottom: 100px;
+  left: 100px;
+  background-color: #ff8b5d; }
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -101,7 +131,7 @@ html {
       margin-right: 40px;
       cursor: pointer; }
     .nav-header .header-menu #burger {
-      display: none;
+      display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 37px;
@@ -136,8 +166,6 @@ html {
       color: #7A797D;
       text-decoration: none;
       transition: all ease .5s; }
-      #hero .hero-left .hero-btns .tap:hover {
-        color: white; }
     #hero .hero-left .hero-btns a:first-child {
       margin-right: 25px; }
   #hero .hero-right {
@@ -239,7 +267,7 @@ html {
       #projects .top-projects .project-card .img2 {
         background-image: url("../../assets/img/projects/weather.jpg"); }
       #projects .top-projects .project-card .img3 {
-        background-image: url("../../assets/img/projects/horizon.jpg"); }
+        background-image: url("../../assets/img/projects/magic-cards.jpg"); }
       #projects .top-projects .project-card .project-txt {
         display: flex;
         flex-direction: column;

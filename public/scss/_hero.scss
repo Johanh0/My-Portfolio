@@ -29,10 +29,6 @@
                 color: $grey-color;
                 text-decoration: none;
                 transition: all ease .5s;
-
-                &:hover {
-                    color: $white-color;
-                }
             }
 
             a:first-child {
@@ -107,4 +103,5 @@
             margin-left: 20px;
         }
     }
+
 }
