@@ -35,7 +35,7 @@ function activeCursor (e) {
         mouse.classList.add(`blue-cursor`);
         mouseTxt.innerText = `Tap`;
     }else if (item.classList.contains(`card-img`) || item.classList.contains(`logo`)) {
-        mouse.classList.add(`white-cursor`);
+        mouse.classList.add(`glass-cursor`);
         mouseTxt.innerText = `About`;
     }else if (item.classList.contains(`view`) || item.classList.contains(`logo`)) {
         mouse.classList.add(`glass-cursor`);
