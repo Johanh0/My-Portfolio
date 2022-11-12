@@ -1,6 +1,6 @@
 // Exports
-// import {gsapAnimations} from './gsap.js';
-// gsapAnimations();
+import {gsapAnimations} from './gsap.js';
+gsapAnimations();
 
 // Global Const
 const htmlEl = document.querySelector(`html`);
